@@ -13,7 +13,7 @@
 
 loadSignature <- function (dataset, cell_types)
 
-{
+{ data("sigsBrain")
   suppressWarnings(if (cell_types == "all") cell_types = names(sigsBrain[[dataset]]))
   error_mssg_dataset <- paste("ERROR: please use one of the valid dataset options:", toString (names(sigsBrain)))
   error_mssg_ct <- paste("ERROR: please use one of the valid cell type options for", dataset, ":", toString (names(sigsBrain[[dataset]])))
