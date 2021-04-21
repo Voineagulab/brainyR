@@ -3,7 +3,7 @@
 #' This function loads a brain signature from given datasets and for the given cell type.
 #' It goes through the sigsBrain.rda file and returns the relevant signatures.
 #' If signature is not in the given .rda file, it will return an error message.
-#' kepted.
+#'
 #'
 #' @param dataset dataset of interest. Options include: F5, IP, SC, MM, LK, CA
 #' @param cell_types cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia
