@@ -28,10 +28,4 @@ loadSignature <- function (dataset, cell_types)
 return(sig)
 }
 
-#test
-#dat<- loadSignature ("IP", c ("Neurons", "Astrocytes"))
-#dat<- loadSignature ("IP", c ("all"))
-#dat<- loadSignature ("F5", c ("all"))
-#dat<- loadSignature ("IP", c ("Neuron", "Astrocytes"))
-
 
