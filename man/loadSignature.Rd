@@ -9,7 +9,7 @@ loadSignature(dataset, cell_types)
 \arguments{
 \item{dataset}{dataset of interest. Options include: F5, IP, SC, MM, LK, CA}
 
-\item{cell_types}{cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia}
+\item{cell_types}{cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia. The argument `c()` can be used to retrieve multiple cell types of interest. }
 }
 \value{
 Object with options from dataset and cell_type
