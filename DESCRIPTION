@@ -1,6 +1,6 @@
 Package: brainyR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Contains dataframes of gene expression for purified brain signatures
 Version: 0.1.0
 Author: Urwah Nawaz
 Maintainer: Urwah Nawaz <urwah.nawaz@adelaide.edu.au>
