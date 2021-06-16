@@ -9,17 +9,13 @@ loadSignature(dataset, cell_types)
 \arguments{
 \item{dataset}{dataset of interest. Options include: F5, IP, SC, MM, LK, CA}
 
-\item{cell_types}{cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia. The argument `c()` can be used to retrieve multiple cell types of interest. }
+\item{cell_types}{cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia}
 }
 \value{
 Object with options from dataset and cell_type
 }
 \description{
-This function returns a dataframe of gene expression for purified brain cell-types as collated and benchmarked in Sutton et al. (2021). Rows are Ensembl Gene IDs, while columns are cell-types. The signatures are as follows, with full descriptions and recommendations for use in our publication:
-CA: single-nucleus RNA-sequencing of post-mortem human from the Human Cell Atlas.
-F5: cultured cells from the FANTOM5 consortium. Contains only Neurons and Astrocytes.
-IP: immunopurified whole-cells from the human cortex from Zhang et al., 2016.
-LK: single-nucleus RNA-sequencing of post-mortem human tissue from Lake et al., 2018. Does not contain Endothelia.
-MM: immunopurified whole-cells from the mouse cortex from Zhang et al., 2014
-SC: single-cell RNA-sequencing from the freshly resected human cortical tissue from Darmanis et al., 2015
+This function loads a brain signature from given datasets and for the given cell type.
+It goes through the sigsBrain.rda file and returns the relevant signatures.
+If signature is not in the given .rda file, it will return an error message.
 }
