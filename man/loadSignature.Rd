@@ -23,8 +23,8 @@ If signature is not in the given .rda file, it will return an error message.
 
 \examples{
   # retrieve neurons from F5 dataset
-  loadSignature(F5, "Neurons")
+  loadSignature("F5", "Neurons")
 
   #  retrieve all cell types from F5 dataset
-  loadSignature(F5, "all")
+  loadSignature("F5", "all")
 }
