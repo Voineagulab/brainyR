@@ -85,15 +85,7 @@ List of 10
   ..$ Microglia       : num [1:8580] 309.96 1.28 6.54 4.33 11.58 ...
   ..$ Endothelia      : num [1:8580] 293.414 0.841 8.975 1.386 9.349 ...
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(sigsBrain)
 ## maybe str(sigsBrain) ; plot(sigsBrain) ...

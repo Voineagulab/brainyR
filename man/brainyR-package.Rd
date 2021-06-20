@@ -4,8 +4,8 @@
 \name{brainyR-package}
 \alias{brainyR}
 \alias{brainyR-package}
-\title{brainyR: Gene expression information for purified brain signatures}
+\title{brainyR: Gene Expression Information for Purified Brain Signatures}
 \description{
-The brainyR package contains dataframe of gene expression information of purified brain cell-types as collated and benchmarked in Sutton et al. (2021)
+The brainyR package contains dataframe of gene expression information of purified brain cell-types.
 }
 \keyword{internal}
