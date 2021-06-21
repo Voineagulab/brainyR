@@ -19,7 +19,3 @@ This function loads a brain signature from given datasets and for the given cell
 It goes through the sigsBrain.rda file and returns the relevant signatures.
 If signature is not in the given .rda file, it will return an error message.
 }
-\examples{
-loadSignature("F5", "Neurons")
-loadSignature("F5", "all")
-}
