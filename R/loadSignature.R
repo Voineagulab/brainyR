@@ -8,9 +8,6 @@
 #' @param dataset dataset of interest. Options include: F5, IP, SC, MM, LK, CA
 #' @param cell_types cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia
 #' @return Object with options from dataset and cell_type
-#' @examples
-#' loadSignature("F5", "Neurons")
-#' loadSignature("F5", "all")
 
 
 loadSignature <- function (dataset, cell_types)
@@ -30,4 +27,7 @@ loadSignature <- function (dataset, cell_types)
 return(sig)
 }
 
+#' @examples
+#' loadSignature("F5", "Neurons")
+#' loadSignature("F5", "all")
 
