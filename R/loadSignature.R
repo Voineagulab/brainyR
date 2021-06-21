@@ -8,6 +8,8 @@
 #' @param dataset dataset of interest. Options include: F5, IP, SC, MM, LK, CA
 #' @param cell_types cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia
 #' @return Object with options from dataset and cell_type
+#' @export
+#' @importMethodsFrom utils data
 
 
 

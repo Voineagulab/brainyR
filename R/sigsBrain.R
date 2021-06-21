@@ -12,4 +12,5 @@
 #'   \item{MM}{immunopurified whole-cells from the mouse cortex from Zhang et al., 2014}
 #'   \item{SC}{single-cell RNA-sequencing from the freshly resected human cortical tissue from Darmanis et al., 2015}
 #' }
+#' @usage data(sigsBrain)
 "sigsBrain"

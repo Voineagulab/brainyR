@@ -17,7 +17,7 @@ A list of lists with 10 levels corresponding to the different datasets with puri
 }
 }
 \usage{
-sigsBrain
+data(sigsBrain)
 }
 \description{
 Dataframe of gene expression for purified brain cell-types as collated and benchmarked in Sutton et al. (2021).
