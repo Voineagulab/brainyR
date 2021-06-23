@@ -9,8 +9,8 @@
 #' @param cell_types cell types of interest. Options include: Neurons, Astrocytes, Oligodendrocytes, Microglia, Endothelia
 #' @return Object with options from dataset and cell_type
 #' @import utils
-#' @importFrom  utils data
 #' @import usethis
+#' @importFrom  utils data
 #' @importFrom usethis use_package
 #' @export
 
