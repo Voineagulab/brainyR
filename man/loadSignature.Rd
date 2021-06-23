@@ -19,3 +19,8 @@ This function loads a brain signature from given datasets and for the given cell
 It goes through the sigsBrain.rda file and returns the relevant signatures.
 If signature is not in the given .rda file, it will return an error message.
 }
+
+\examples{
+Loading neurons from the F5 dataset
+loadSignature("F5", "Neurons")
+}
