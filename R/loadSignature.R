@@ -10,6 +10,8 @@
 #' @return Object with options from dataset and cell_type
 #' @import utils
 #' @importFrom  utils data
+#' @import usethis
+#' @importFrom usethis use_package
 #' @export
 
 
