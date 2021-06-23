@@ -6,6 +6,6 @@
 \alias{brainyR-package}
 \title{brainyR: Gene Expression Information for Purified Brain Signatures}
 \description{
-The brainyR package contains dataframe of gene expression information of purified brain cell-types.
+This package contains dataframe of gene expression information of purified brain cell-types.
 }
 \keyword{internal}

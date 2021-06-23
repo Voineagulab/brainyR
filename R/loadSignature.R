@@ -11,6 +11,28 @@
 #' @export
 #' @import utils
 #' @importFrom  utils data
+#'
+#' #@examples
+#' loadSignature <- function (dataset, cell_types)]
+#' {
+#' data("sigsBrain")
+#' suppressWarnings(if (cell_types == "all") cell_types = names(sigsBrain[[dataset]]))
+#' error_mssg_dataset <- paste("ERROR: please use one of the valid dataset options:", toString (names(sigsBrain)))
+#' error_mssg_ct <- paste("ERROR: please use one of the valid cell type options for", dataset, ":", toString (names(sigsBrain[[dataset]])))
+#' if(dataset%in%names(sigsBrain))
+#' {
+#' message (paste("Loading datset:", dataset))
+#' if ( length(intersect(cell_types, names(sigsBrain[[dataset]]))) == length(cell_types))
+#' {message ("Loading cell type data")
+#' sig<- sigsBrain[[dataset]][, cell_types]} else message(error_mssg_ct)
+#' } else (message(error_mssg_dataset))
+#' return(sig)
+#' }
+#' # Retriving neurons from the F5 dataset
+#' loadSignature("F5", "Neurons")
+#'
+#' # Retriving all cell types from the F5 dataset
+#' loadSignature("F5", "all")
 
 
 
