@@ -12,7 +12,6 @@
 #' @import usethis
 #' @importFrom  utils data
 #' @importFrom usethis use_package
-#' @usage data("sigsBrain")
 #' @export
 
 
@@ -25,7 +24,7 @@ loadSignature <- function (dataset, cell_types)
 
 {
   usethis::use_package("utils")
-  usethis::use_data("sigsBrain")
+  data("sigsBrain", evir=environment())
   suppressWarnings(if (cell_types == "all") cell_types = names(sigsBrain[[dataset]]))
   error_mssg_dataset <- paste("ERROR: please use one of the valid dataset options:", toString (names(sigsBrain)))
   error_mssg_ct <- paste("ERROR: please use one of the valid cell type options for", dataset, ":", toString (names(sigsBrain[[dataset]])))
@@ -40,3 +39,4 @@ loadSignature <- function (dataset, cell_types)
 return(sig)
 }
 
+if(getRversion() >= "2.15.1") utils::globalVariables(c("sigsBrain"))

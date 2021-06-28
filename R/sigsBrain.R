@@ -12,7 +12,7 @@
 #'   \item{VL}{}
 #'   \item{NG}{}
 #'   \item{CA}{single-nucleus RNA-sequencing of post-mortem human from the Human Cell Atlas}
-#'   \item{TS}
+#'   \item{TS}{}
 #'   \item{LK}{single-nucleus RNA-sequencing of post-mortem human tissue from Lake et al., 2018. Does not contain Endothelia}
 #'   \item{MB}{}
 #' }
