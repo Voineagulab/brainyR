@@ -4,14 +4,18 @@ Title: Gene Expression Information for Purified Brain Signatures
 Version: 0.1.0
 Author: Urwah Nawaz, Gavin Sutton
 Maintainer: Urwah Nawaz <urwah.nawaz@adelaide.edu.au>
-Description: This package contains dataframe of gene expression information of purified brain cell-types.
+Description: Dataframe of gene expression information of purified brain cell-types.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.1.1
-LazyData: true
 Imports: 
     utils,
     usethis
-    
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

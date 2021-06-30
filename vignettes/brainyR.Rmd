@@ -1,0 +1,40 @@
+---
+title: "brainyR"
+author: 
+  - name: Urwah Nawaz 
+    affiliation: Adelaide Medical School, University of Adelaide 
+    email: urwah.nawaz@adelaide.edu.au
+  - name: Gavin J Sutton 
+    affiliation: School of Biotechnology and Biological Sciences, University of New South Wales 
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{brainyR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Introduction
+
+The package `brainyR` contains gene expression dataframes for purified brain cell-types as collated and benchmarked in Sutton et al. (2021)
+
+# Basic Usage 
+
+
+```{r setup}
+library(brainyR)
+```
+
+
+For example to retrieve neurons from the F5 dataset 
+
+```{r}
+loadSignature("F5", "Neurons")
+```
